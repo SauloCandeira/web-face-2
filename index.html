@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Webcam</title>
 </head>
 <body>
-    <p>
-        <label for="soundFile">What does your voice sound like?:</label>
-        <input type="file" id="soundFile" capture="user" accept="audio/*" />
-      </p>
-      <p>
-        <label for="videoFile">Upload a video:</label>
-        <input type="file" id="videoFile" capture="environment" accept="video/*" />
-      </p>
-      <p>
-        <label for="imageFile">Upload a photo of yourself:</label>
-        <input type="file" id="imageFile" capture="user" accept="image/*" />
-      </p>
+    <div class="container">
+
+        <div class="box">
+
+
+            <label for="fname">Nome:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+
+            <label for="fname">E-mail:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="imageFile">Tirar foto:</label>
+            <input type="file" id="imageFile" capture="user" accept="image/*" />
+
+        </div>
+
+    </div>
+
 </body>
 </html>
